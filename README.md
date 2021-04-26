@@ -1,6 +1,6 @@
 # Meeting App
 
-A meeting app that starts live meetings in new windows and tracks all meetings through a list on a dashboard.
+A meeting app that starts mockup live meetings in new windows and tracks all meetings through a list on a dashboard.
 
 ## To run the app
 
