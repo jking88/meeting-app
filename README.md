@@ -4,4 +4,4 @@ A video call app that starts live meetings in new windows and tracks all meeting
 
 ## To run the app
 
-Just clone the app, install packages, and run npm start to start the app!
+Just clone the app, install packages with `npm i`, and run `npm start` to start the app!
