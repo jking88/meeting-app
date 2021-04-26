@@ -1,6 +1,6 @@
-# Video Call App
+# Meeting App
 
-A video call app that starts live meetings in new windows and tracks all meetings through a list on a dashboard.
+A meeting app that starts live meetings in new windows and tracks all meetings through a list on a dashboard.
 
 ## To run the app
 
