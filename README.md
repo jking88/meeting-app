@@ -1,0 +1,7 @@
+# Video Call App
+
+A video call app that starts live meetings in new windows and tracks all meetings through a list on a dashboard.
+
+## To run the app
+
+Just clone the app, install packages, and run npm start to start the app!

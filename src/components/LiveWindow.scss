@@ -1,0 +1,64 @@
+.live-window-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+
+  .live-window {
+    height: 40rem;
+    width: 70rem;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    justify-content: flex-end;
+
+    .live-window-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 90%;
+      width: 100%;
+      color: white;
+      background-color: black;
+    }
+
+    .live-window-footer {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      flex-direction: row;
+      height: 10%;
+      border-top-style: solid;
+      border-top-color: black;
+
+      &__button {
+        margin-top: 6px;
+        height: 80%;
+        color: #fff !important;
+        text-transform: uppercase;
+        background: red;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none !important;
+        transition: all 0.2s;
+      }
+
+      &__time {
+        display: flex;
+        width: 8rem;
+        justify-content: center;
+        color: black;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+      }
+    }
+  }
+}

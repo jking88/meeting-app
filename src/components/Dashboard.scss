@@ -1,0 +1,104 @@
+.dashboard-wrapper {
+  text-align: center;
+  display: flex;
+}
+
+.start-dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 0 1 50%;
+
+  .start-meeting {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #7f91d5;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.2s;
+    border-style: none;
+  }
+
+  .start-meeting:hover {
+    background: #7f91d5;
+    letter-spacing: 0.6px;
+    transition: all 0.2s;
+  }
+
+  .stop-meeting {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: red;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none !important;
+    transition: all 0.2s;
+    margin-bottom: 1rem;
+  }
+
+  .stop-meeting:hover {
+    background: red;
+    letter-spacing: 0.6px;
+    transition: all 0.2s;
+  }
+
+  .increment-meeting {
+    color: #fff !important;
+    text-transform: uppercase;
+    background: gray;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none !important;
+  }
+}
+
+.meeting-history-wrapper {
+  flex: 0 1 50%;
+  margin-top: 10%;
+
+  .meeting-history-header {
+    color: #7f91d5;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+
+  .meeting-history-list {
+    height: 70%;
+    overflow-y: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .active-meeting {
+    width: 3rem;
+    border: 1px solid #7f91d5;
+    border-radius: 10px;
+    background-color: #c5ceec;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #7f91d5;
+    margin-right: 1rem;
+  }
+
+  .closed-meeting {
+    width: 3rem;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #999999;
+    margin-right: 1rem;
+  }
+}
